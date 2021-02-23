@@ -1,0 +1,72 @@
+// #009688 primary
+// #00796b primary dark
+
+.nav {
+  background-color: #009688;
+  padding: 5px 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: center;
+
+  .logo {
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 23px;
+      font-weight: 100;
+      // span {
+      //   background-color: azure;
+      //   color: #009688;
+      //   width: 20px;
+      //   height: 100px;
+      // }
+    }
+  }
+
+  .menu {
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .menu,
+  .right,
+  .left {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .right {
+    margin-left: 40px;
+    .item {
+      margin-right: 20px;
+    }
+  }
+
+  .left {
+    .item {
+      margin-left: 20px;
+    }
+  }
+}
+
+.item {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  i {
+    align-self: center;
+    color: #00796b;
+  }
+
+  &:hover i {
+    color: #009688;
+  }
+}

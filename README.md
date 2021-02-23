@@ -2,7 +2,11 @@
 
 # JijiClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+My attempt at developing an Angular Jiji clone based off of [JIJI Market Place](https://jiji.ug/) originally developed using Vue.
+
+## Production server
+
+This project is hosted on Vercel. [JIJI CLONE](https://ng-jiji-clone.vercel.app/)
 
 ## Development server
 

@@ -1,0 +1,23 @@
+.ad {
+  padding: 2px;
+  box-shadow: 0 0 2px #888;
+
+  .image {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    padding: 5px 10px;
+    .title {
+    }
+
+    .price {
+      color: #00796b;
+      margin-top: -5px;
+    }
+  }
+}
